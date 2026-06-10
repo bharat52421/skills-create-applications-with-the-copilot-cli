@@ -4,7 +4,8 @@
   "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "serve": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "homepage": "https://github.com/bharat52421/skills-create-applications-with-the-copilot-cli#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
   }
 }
